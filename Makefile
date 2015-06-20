@@ -12,4 +12,4 @@ IntList.o: IntList.h IntList.c
 		$(CC) $(CFLAGS) -c IntList.c
 
 clean:
-		$(RM) *.o *~
+		$(RM) *.o .*~

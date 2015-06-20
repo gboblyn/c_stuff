@@ -25,13 +25,13 @@ int main(int argc, char** argv) {
   IntList *list = makeIntListFromArray(nums, 5);
   
   (void)fprintf(stdout, "Before add1:\n");
-  map(&printNum, list);
+  map(printNum, list);
  
-  map(&add1, list);
+  map(add1, list);
 
   (void)fprintf(stdout, "After add1:\n");
 
-  map(&printNum, list);
+  map(printNum, list);
 
   freeIntList(list);
   return 0;
